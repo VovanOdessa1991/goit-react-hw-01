@@ -1,0 +1,46 @@
+.userCard {
+  width: 400px;
+  border: solid;
+  padding-top: 10px;
+  border-radius: 18px;
+  margin: 40px 50px;
+  overflow: hidden;
+  background-color: rgb(245, 244, 241);
+}
+.user {
+  text-align: center;
+}
+
+.userIMG {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userStats {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(151, 151, 151);
+  height: 50px;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  padding-left: 0;
+}
+
+.statsItem {
+  border: solid;
+  border-color: gray;
+  width: 100%;
+  text-align: center;
+  border-left: none;
+}
+.statsItem:last-child {
+  border-right: none;
+}
+.statsItem span {
+  display: block;
+}

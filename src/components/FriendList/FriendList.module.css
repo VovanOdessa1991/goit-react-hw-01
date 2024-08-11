@@ -1,0 +1,5 @@
+.FriendList {
+  display: flex;
+  list-style-type: none;
+  width: auto;
+}

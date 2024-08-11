@@ -1,0 +1,15 @@
+.status {
+  color: red;
+}
+.isOnline {
+  color: #008000;
+}
+
+.FriendListItem {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  border: solid;
+  border-radius: 5px;
+  margin: 0 30px;
+}
